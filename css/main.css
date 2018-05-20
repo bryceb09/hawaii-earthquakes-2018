@@ -1,0 +1,36 @@
+  html, body, #map {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            background: #fff;
+        }
+
+        #mag-chart {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        #date-chart {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        #nst-chart {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .dc-data-count {
+            width: 100%;
+            margin: 0 auto;
+        }
+        .bar{
+            fill: red;
+      
+        }
+        .line{
+            stroke:red;
+        }
+        .area{
+            fill: red;
+        }
