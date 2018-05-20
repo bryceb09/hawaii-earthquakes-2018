@@ -149,7 +149,8 @@
             },
             onEachFeature: function(feature, layer) {
                 layer.bindTooltip(feature.properties.mag.toString());
-            }
+            },
+            attribution: 'Earthquake Data &copy; <a href="https://earthquake.usgs.gov">USGS</a>| Base Map \'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>\'| Made by Bryce Bradshaw  '
         }).addTo(map);
 
         var magChart = dc.barChart('#mag-chart');
